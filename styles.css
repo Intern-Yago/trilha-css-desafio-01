@@ -1,0 +1,193 @@
+.banner {
+  display: flex;
+  align-items: ce;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 37.8125rem;
+  border-bottom: 1px solid #33a8db;
+  background: url("../assets/banner.png"), linear-gradient(180deg, rgba(0, 33, 48, 0.5137254902) 0%, rgba(0, 79, 112, 0.5137254902) 50%, rgba(0, 33, 48, 0.5137254902) 100%) 100%/cover no-repeat;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.banner-content h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-content p {
+  width: 31.875rem;
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-content button {
+  cursor: pointer;
+  background-color: transparent;
+  width: 20.375rem;
+  padding: 1rem 5rem;
+  color: #31A8DD;
+  border: 2px solid #3BA1CD;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.21rem;
+  transition: background-color 0.3s;
+}
+
+.banner-content button:hover {
+  background-color: rgba(0, 79, 112, 0.5137254902);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16.75rem;
+  height: 16.75rem;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.logo img {
+  width: 15.5rem;
+  height: 13.375rem;
+}
+
+#course-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#course-content h2 {
+  color: #33A8DB;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.38rem;
+}
+#course-content p {
+  width: 49.5rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#course-content .modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#course-content .module {
+  color: #fff;
+  display: flex;
+  width: 33.4375rem;
+  padding: 1rem 2.9375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.5625rem;
+  border: 1px solid #33A8DB;
+  background: #252525;
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+}
+#course-content .module span {
+  color: #33a8db;
+}
+
+#transform-world {
+  width: 100%;
+  height: 22.6875rem;
+  flex-shrink: 0;
+  background-image: url("../assets/woman-code.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#transform-world p {
+  color: #FFF;
+  text-shadow: 3px 2px 0px #33A8DB;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+#professional-challenges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#professional-challenges h2 {
+  color: #33A8DB;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.38rem;
+}
+#professional-challenges img {
+  width: 41.1875rem;
+  height: 26.8125rem;
+  flex-shrink: 0;
+}
+#professional-challenges p {
+  width: 49.5rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #33A8DB;
+  background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+  flex-direction: column;
+}
+footer p {
+  color: white;
+}
+footer p a {
+  color: #33a8db;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  background-color: #000;
+}/*# sourceMappingURL=styles.css.map */

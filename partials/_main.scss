@@ -1,0 +1,94 @@
+#course-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    h2{
+        color: #33A8DB;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.38rem;
+    }
+    p{
+        width: 49.5rem;
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .modules-list{
+        display:flex;
+        flex-direction:column;
+        gap:1.5rem;
+    }
+    .module{
+        span{
+            color: $blue-light;
+        }
+        color:#fff;
+        display: flex;
+        width: 33.4375rem;
+        padding: 1rem 2.9375rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 3.5625rem;
+        border: 1px solid #33A8DB;
+        background: #252525;
+        box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    }
+}
+
+#transform-world{
+    width: 100%;
+    height: 22.6875rem;
+    flex-shrink: 0;
+    background-image: url('../assets/woman-code.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    p{
+        color: #FFF;
+        text-shadow: 3px 2px 0px #33A8DB;
+        
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+#professional-challenges{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    h2{
+        color: #33A8DB;
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.38rem;
+    }
+    img{
+        width: 41.1875rem;
+        height: 26.8125rem;
+        flex-shrink: 0;
+    }
+    p{
+        width: 49.5rem;
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
